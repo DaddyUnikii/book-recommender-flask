@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Recommender</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        h1 { color: #2c3e50; }
+        .form-group { margin: 15px 0; }
+        button { background: #3498db; color: white; border: none; padding: 10px 20px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>📚 Book Recommendation System</h1>
+    <form action="/recommend" method="post">
+        <div class="form-group">
+            <label>Pilih Genre:</label>
+            <select name="genre">
+                <option value="Fantasy">Fantasy</option>
+                <option value="Sci-Fi">Sci-Fi</option>
+                <option value="Self-Help">Self-Help</option>
+                <option value="Classic">Classic</option>
+            </select>
+        </div>
+        <button type="submit">Dapatkan Rekomendasi</button>
+    </form>
+</body>
+</html>
