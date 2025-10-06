@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rekomendasi Buku</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        h1 { color: #2c3e50; }
+        .book { border: 1px solid #ddd; padding: 10px; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <h1>📖 Rekomendasi untuk Genre: {{ genre }}</h1>
+    {% for book in books %}
+        <div class="book">
+            <h3>{{ book.title }}</h3>
+            <p>Penulis: {{ book.author }}</p>
+            <p>Genre: {{ book.genre }}</p>
+        </div>
+    {% endfor %}
+    <a href="/">← Kembali</a>
+</body>
+</html>
