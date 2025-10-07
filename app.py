@@ -9,8 +9,7 @@ books = [
     {"id": 2, "title": "Atomic Habits", "author": "James Clear", "genre": "Self-Help"},
     {"id": 3, "title": "Dune", "author": "Frank Herbert", "genre": "Sci-Fi"},
     {"id": 4, "title": "Pride and Prejudice", "author": "Jane Austen", "genre": "Classic"},
-    {"id": 5, "title": "The Da Vinci Code", "author": "Dan Brown", "genre": "Mystery"},
-
+     {"id": 5, "title": "The Da Vinci Code", "author": "Dan Brown", "genre": "Mystery", "rating": 4.6},
 ]
 
 @app.route('/')
