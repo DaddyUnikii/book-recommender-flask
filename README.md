@@ -44,3 +44,6 @@ book-recommender-flask/
 pip install -r requirements.txt
 python app.py
 ```
+## 🚀 Fitur Baru
+- Rekomendasi buku berdasarkan genre
+- Tampilan **rating buku** (1-5)
